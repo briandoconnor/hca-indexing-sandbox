@@ -9,3 +9,9 @@ A place to explore indexing
 ## Trigger Indexing
 
     sudo docker exec -it boardwalk_dcc-metadata-indexer_1 bash -c "/app/dcc-metadata-indexer/cron.sh"
+
+## Prepare Index
+
+    python ...
+
+## Query Index
