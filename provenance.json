@@ -1,0 +1,32 @@
+{
+	"analysis_id": 4342342,
+	"timestamp_start_utc": "2017-04-18-...",
+	"timestamp_stop_utc": "2017-04-18-...",
+	"assay_json": "bluebox://databundleuuid/version/fileuuid/version#assay.json",
+	"metadata_schema": "version_232",
+	"timings": {
+		"step_one": {
+			"start_utc": "2017 - 04 - 18 - ...",
+			"stop_utc": "2017 - 04 - 18 - ..."
+		},
+		"step_two": {
+			"start_utc": "2017 - 04 - 18 - ...",
+			"stop_utc": "2017 - 04 - 18 - ..."
+		}
+	},
+	"outputs": [{
+			"fastq_1": {
+				"file_path": "bluebox://databundleuuid/version/fileuuid/version#SRR1974543_1.fastq.gz",
+				"file_type": "bam",
+				"checksum": "d0f7d08f1980f7980f"
+			}
+		},
+		{
+			"fastq_2": {
+				"file_path": "bluebox://databundleuuid/version/fileuuid/version#SRR1974543_2.fastq.gz",
+				"file_type": "bam",
+				"checksum": "d0f7d18f7980f7980f"
+			}
+		}
+	]
+}

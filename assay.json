@@ -1,0 +1,199 @@
+{
+	"characteristic": [{
+			"category": "organism",
+			"value": "Homo sapiens"
+		},
+		{
+			"value": "temporal lobe cortex",
+			"category": "organism part"
+		},
+		{
+			"value": "AB_S8",
+			"category": "individual"
+		},
+		{
+			"category": "single cell well quality",
+			"value": "high quality cell"
+		},
+		{
+			"value": "not applicable",
+			"category": "cell type"
+		},
+		{
+			"category": "disease",
+			"value": "normal"
+		},
+		{
+			"category": "sex",
+			"value": "male"
+		},
+		{
+			"category": "age",
+			"unit": "year",
+			"value": 116
+		},
+		{
+			"category": "body mass index",
+			"value": 21.5
+		}
+	],
+	"experiment": {
+		"id": 551574,
+		"accession": "E-MTAB-5061",
+		"experimenttype": [
+			"RNA-seq of coding RNA from single cells"
+		],
+		"lastupdatedate": "2016-11-23",
+		"description": [{
+			"text": "We used single-cell RNA-sequencing to generate transcriptional profiles of temporal lobe cortex. Temporal lobe cortex tissue was obtained from...",
+			"id": null
+		}],
+		"organism": [
+			"Homo sapiens"
+		],
+		"secondaryaccession": [
+			"ERP017126"
+		],
+		"releasedate": "2016-09-22",
+		"provider": [{
+				"role": "experiment performer",
+				"email": "Asa.Segerstolpe@ki.se",
+				"contact": "Åsa Segerstolpe"
+			},
+			{
+				"contact": "Rickard Sandberg",
+				"email": "Rickard.Sandberg@ki.se",
+				"role": "investigator"
+			},
+			{
+				"contact": "Athanasia Palasantza",
+				"role": "data analyst submitter",
+				"email": "Athanasia.Palasantza@ki.se"
+			}
+		],
+		"name": "Single-cell RNA-seq analysis of human temporal lobe cortex from healthy individuals",
+		"bioassaydatagroup": [{
+				"isderived": 0,
+				"arraydesignprovider": null,
+				"id": null,
+				"bioassaydatacubes": 1,
+				"bioassays": 1,
+				"name": "processedData",
+				"dataformat": "processedData"
+			},
+			{
+				"bioassaydatacubes": 3514,
+				"id": null,
+				"arraydesignprovider": null,
+				"isderived": 0,
+				"dataformat": "scan",
+				"bioassays": 3514,
+				"name": "scan"
+			}
+		],
+		"experimentdesign": [
+			"cell type comparison design",
+			"disease state design"
+		],
+		"protocol": [{
+				"accession": "P-MTAB-51965",
+				"id": 1224741
+			},
+			{
+				"accession": "P-MTAB-51964",
+				"id": 1224742
+			},
+			{
+				"accession": "P-MTAB-51967",
+				"id": 1224744
+			},
+			{
+				"accession": "P-MTAB-51966",
+				"id": 1224740
+			},
+			{
+				"accession": "P-MTAB-51963",
+				"id": 1224743
+			}
+		]
+	},
+	"extract": {
+		"comment": [{
+				"name": "LIBRARY_LAYOUT",
+				"value": "SINGLE"
+			},
+			{
+				"value": "RANDOM",
+				"name": "LIBRARY_SELECTION"
+			},
+			{
+				"name": "LIBRARY_SOURCE",
+				"value": "TRANSCRIPTOMIC"
+			},
+			{
+				"value": "not applicable",
+				"name": "LIBRARY_STRAND"
+			},
+			{
+				"name": "LIBRARY_STRATEGY",
+				"value": "RNA-Seq"
+			}
+		],
+		"name": "HP1504901_P1"
+	},
+	"variable": [{
+			"value": "normal",
+			"name": "disease"
+		},
+		{
+			"value": "not applicable",
+			"name": "cell type"
+		}
+	],
+	"run": [{
+		"attributes": {
+			"enaspotcount": "119605",
+			"enafirstpublic": "2016-09-22",
+			"enabasecount": "5143015",
+			"enalastupdate": "2016-10-26"
+		},
+		"files": [{
+			"ascii_offset": "@",
+			"filetype": "fastq",
+			"quality_encoding": "ascii",
+			"filename": "ERA705/ERA705448/fastq/SRR1974543_1.fastq.gz",
+			"checksum": "b1a278ba4955b346ae0ef9286f31db2f",
+			"quality_scoring_system": "phred",
+			"checksum_method": "MD5"
+		}, {
+			"ascii_offset": "@",
+			"filetype": "fastq",
+			"quality_encoding": "ascii",
+			"filename": "ERA705/ERA705448/fastq/SRR1974543_2.fastq.gz",
+			"checksum": "b1a278ba4955b346ae0ef9286f31dc1f",
+			"quality_scoring_system": "phred",
+			"checksum_method": "MD5"
+		}],
+		"accession": "ERR1631204"
+	}],
+	"file": [],
+	"source": {
+		"name": "HP1504901_P1",
+		"comment": [{
+				"value": "ERS1349661",
+				"name": "ENA_SAMPLE"
+			},
+			{
+				"value": "SAMEA4438212",
+				"name": "BioSD_SAMPLE"
+			}
+		]
+	},
+	"assay": {
+		"name": "HP1504901_P1",
+		"comment": {
+			"value": "ERX1701537",
+			"name": "ENA_EXPERIMENT"
+		}
+	}
+}
