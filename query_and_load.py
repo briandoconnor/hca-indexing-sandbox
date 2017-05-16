@@ -62,6 +62,7 @@ class QueryAndLoad:
         ctx.check_hostname = False
         ctx.verify_mode = ssl.CERT_NONE
         json_str = urlopen(str("https://"+self.redwood_domain+":8444/entities?fileName=assay.json&page=0"), context=ctx).read()
+        # https://ops-dev.ucsc-cgl.org/api/v1/repository/files/?filters=%7B%22file%22:%7B%22file_type%22:%7B%22is%22:%5B%22json%22%5D%7D%7D%7D
         metadata_struct = json.loads(json_str)
         for page in range(0, metadata_struct["totalPages"]):
             print "DOWNLOADING PAGE "+str(page)
