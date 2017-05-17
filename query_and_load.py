@@ -82,14 +82,14 @@ class QueryAndLoad:
                 command.append("--output-layout")
                 command.append("bundle")
                 command.append("--force")
-                print " ".join(command)
+                print (" ".join(command))
                 try:
                     c_data=Popen(["/bin/bash", "-c", " ".join(command)], stdout=PIPE, stderr=PIPE)
                     stdout, stderr = c_data.communicate()
                     print (stdout)
                     print (stderr)
                 except Exception as e:
-                    print 'Error while downloading file with content ID: %s Error: %s' % (object_id, e)
+                    print ('Error while downloading file with content ID: %s Error: %s' % (object_id, e))
 
         print ("** BUILDING INDEX **")
         outfile = open("elasticsearch_index.jsonl", "w")
